@@ -1,0 +1,6 @@
+%% ADD Legand
+
+figure(f2)
+legend('Delay Threshold = \infty, K = 5',['Delay Threshold = ', num2str(delay),', K = 5'],...
+    'Delay Threshold = \infty, K = 6',['Delay Threshold = ', num2str(delay),', K = 6'],...
+    'FontSize',13,'Location','southeast')
